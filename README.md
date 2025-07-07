@@ -1,16 +1,19 @@
-# Welcome to Defold
+# Defold Scene Test
 
-This project was created from the "mobile" project template. This means that the settings in ["game.project"](defold://open?path=/game.project) have been changed to be suitable for a mobile game:
+This repository contains a test project for creating scenes in Defold using collections and game objects.
+At the moment it consists only of an empty mobile project generated from the Defold template.
 
-- The screen size is set to 640x1136
-- The projection is set to Fixed Fit
-- Orientation is fixed vertically
-- Android and iOS icons are set
-- Mouse click/single touch is bound to action "touch"
-- A simple script in a game object is set up to receive and react to input
-- Accelerometer input is turned off (for better battery life)
+The template settings in ["game.project"](defold://open?path=/game.project) include:
 
-[Build and run](defold://build) to see it in action. You can of course alter these settings to fit your needs.
+- The screen size set to 640x1136
+- The projection set to Fixed Fit
+- Orientation fixed vertically
+- Android and iOS icons
+- The `touch` action bound to mouse click or single touch
+- A simple script reacting to input
+- Accelerometer input turned off for better battery life
+
+[Build and run](defold://build) to see it in action. You can alter these settings to fit your needs.
 
 Check out [the documentation pages](https://defold.com/learn) for examples, tutorials, manuals and API docs.
 
